@@ -20,7 +20,7 @@ const Login = ({ login, isAuthenticated }) => {
   };
 
   if (isAuthenticated) {
-    return Redirect("/");
+    return <Redirect to="/" />;
   }
 
   return (
